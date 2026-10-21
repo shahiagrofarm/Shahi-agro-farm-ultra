@@ -1,0 +1,8 @@
+{
+  "name": "SHAHI AGRO FARM",
+  "description": "Official website of SHAHI AGRO FARM in Shubornochar, Noakhali. Premium 50 KG packaged grass silage, 100% pure traditional Shahi Ghee, live silage calculator, and verified WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
