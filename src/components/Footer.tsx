@@ -25,8 +25,16 @@ export function Footer({ setActiveTab }: FooterProps) {
           {/* Brand Info */}
           <div className="lg:col-span-1 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-[#091F14] border border-[#00A86B]/40 flex items-center justify-center font-black text-xs text-[#00A86B]">
-                SAF
+              <div className="w-10 h-10 rounded-full overflow-hidden border border-[#00A86B]/50 bg-[#091F14] shrink-0 shadow-md">
+                <img
+                  src="/assets/aistudio/logo_3f4c8dbd.jpg"
+                  alt="SHAHI AGRO FARM Logo"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLElement;
+                    target.style.display = 'none';
+                  }}
+                />
               </div>
               <span className="text-base font-extrabold text-white tracking-tight">
                 SHAHI <span className="text-[#00A86B]">AGRO FARM</span>

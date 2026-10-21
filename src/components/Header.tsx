@@ -38,8 +38,17 @@ export function Header({ activeTab, setActiveTab }: HeaderProps) {
           onClick={() => handleNavClick('home')}
           className="flex items-center gap-3 text-left group shrink-0"
         >
-          <div className="w-10 h-10 rounded-full bg-[#091F14] border border-[#00A86B]/40 flex items-center justify-center font-black text-xs text-[#00A86B] tracking-wider shadow-md shadow-[#00A86B]/10 group-hover:border-[#00A86B] transition-colors">
-            SAF
+          <div className="w-11 h-11 rounded-full overflow-hidden border-2 border-[#00A86B]/60 shadow-lg shadow-[#00A86B]/20 group-hover:border-[#00A86B] group-hover:scale-105 transition-all bg-[#091F14] shrink-0">
+            <img
+              src="/assets/aistudio/logo_3f4c8dbd.jpg"
+              alt="SHAHI AGRO FARM Logo"
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                // Fallback to text if image blocked
+                const target = e.target as HTMLElement;
+                target.style.display = 'none';
+              }}
+            />
           </div>
           <div>
             <span className="text-base font-extrabold tracking-tight text-white whitespace-nowrap block">

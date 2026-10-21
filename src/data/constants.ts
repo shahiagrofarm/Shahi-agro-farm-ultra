@@ -187,6 +187,7 @@ export const HOW_TO_ORDER_STEPS = [
 export const FARM_INFO = {
   name: 'SHAHI AGRO FARM',
   bengaliName: 'শাহী এগ্রো ফার্ম',
+  logoUrl: '/assets/aistudio/logo_3f4c8dbd.jpg',
   tagline: 'Farm-focused quality. Feeding with care.',
   bengaliTagline: 'উন্নত পুষ্টি, টেকসই খামার। সেবায় সদা জাগ্রত।',
   location: 'Babul Chearman Bari, Char Bojlul Korim, Char Bata-3813, Shubornochar, Noakhali, Bangladesh',
